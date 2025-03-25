@@ -10,7 +10,7 @@ import Profile from "./pages/Profile";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const location = useLocation();
+ 
 
   return (
     <div className={isAuthenticated ? "authenticated" : ""}>
